@@ -15,3 +15,4 @@ const MessageSchema = new mongoose.Schema({
     required: [true, " Room cannot be empty"],
   },
 });
+module.exports = mongoose.model('Message',MessageSchema);
