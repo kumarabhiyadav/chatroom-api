@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URL=databaseurl;
+const URL='mongodb+srv://abhinav123:abhinav123@cluster0.ozslk.mongodb.net/chatroom?retryWrites=true&w=majority';
 
 const connectDB = async ()=>{
  const conn=await mongoose.connect(URL,{
