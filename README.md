@@ -3,7 +3,7 @@
 ChatRoomAPI
 
 
-## Tech Used
+## Technology Used
 
 1. NodeJS
 2. express framework
